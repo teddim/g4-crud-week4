@@ -20,3 +20,5 @@ To make this work:
 * Create a TODO list somewhere (could be a text file, a moo.do list, on paper etc...)
 * Take a minute to write down the things you'd like to do, in the order you'd like to do them
 * As you finish each task, check off the item you've completed
+
+NOTE: no need to include Twitter Bootstrap here.
