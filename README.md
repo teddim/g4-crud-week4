@@ -17,8 +17,15 @@ To make this work:
 * cd into the `g4-crud-week4` directory
 * Run `bundle`
 * Run `rake db:create`
-* Create a TODO list somewhere (could be a text file, a moo.do list, on paper etc...)
-* Take a minute to write down the things you'd like to do, in the order you'd like to do them
+* Create a TODO list somewhere (What order do we need to do the things to make this work? Migrations, controllers, forms, routes, etc. Try to create this list before starting)
+
 * As you finish each task, check off the item you've completed
 
+* Create an events index page that lists all events in a table.
+* Link to "New Event" that allows users to create events.
+* Don't worry about CSS and formatting. 
+* CRUD CRUD CRUD!!!
+
 NOTE: no need to include Twitter Bootstrap here.
+
+* gl, hf.
