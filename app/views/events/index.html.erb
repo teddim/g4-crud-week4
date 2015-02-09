@@ -1,0 +1,15 @@
+<h1>List of All Events</h1>
+
+<%= link_to "Create New Event", new_event_path %>
+<table>
+<% @events.each do |event| %>
+  <tr>
+    <td>Date:<%= event.date %> </td>
+    <td>Location: <%= event.location %> </td>
+    <td>Description: <%= event.description %> </td>
+    <td>Capacity: <%= event.capacity %> </td>
+    <td>Requires ID: <%= event.requires_id %> </td>
+
+    <td><%= link_to "Edit", edit_event_path(event) %></td>
+  </tr>
+<% end %>
