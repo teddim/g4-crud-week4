@@ -1,0 +1,21 @@
+<h1>Show Event </h1>
+<p> <%= link_to "Show All Events", events_path %></p>
+
+<table>
+
+<tr>
+  <td>Date:<%= @event.date %> </td>
+  <td>Location: <%= @event.location %> </td>
+  <td>Description: <%= @event.description %> </td>
+  <td>Capacity: <%= @event.capacity %> </td>
+  <td>Requires ID: <%= @event.requires_id %> </td>
+
+  </tr>
+<tr>
+
+<td>
+<%= link_to "Edit", edit_event_path(@event) %>
+  <%= link_to "Delete", @event, method: "delete" %>
+</td>
+</tr>
+</table>

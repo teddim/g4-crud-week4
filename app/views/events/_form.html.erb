@@ -5,8 +5,8 @@
     <td>Date:<%= e.date_field :date %> </td>
     <td>Location: <%= e.text_field :location %> </td>
     <td>Description: <%= e.text_field :description %> </td>
-    <td>Capacity: <%= e.text_field :capacity %> </td>
-    <td>Requires ID: <%= e.check_box :requires_id, {},true, false %> </td>
+    <td>Capacity: <%= e.number_field :capacity %> </td>
+    <td>Requires ID: <%= e.check_box :requires_id, {}, true, false %> </td>
 
   </tr>
   <td><%= e.submit %><%= link_to 'cancel', events_path %></td>

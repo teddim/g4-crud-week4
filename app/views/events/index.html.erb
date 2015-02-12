@@ -9,7 +9,9 @@
     <td>Description: <%= event.description %> </td>
     <td>Capacity: <%= event.capacity %> </td>
     <td>Requires ID: <%= event.requires_id %> </td>
-
+    <td> <%= link_to "Show", event_path(event) %></td>
     <td><%= link_to "Edit", edit_event_path(event) %></td>
+    <td><%= link_to "Delete", event, method: "delete" %></td>
+
   </tr>
 <% end %>
